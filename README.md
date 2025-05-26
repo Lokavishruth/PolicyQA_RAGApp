@@ -23,14 +23,16 @@ This project is a robust generative search system that allows users to upload an
 ## How to Run
 1. Clone this repository.
 2. Install dependencies:
-   ```pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
    ```
 3. Set your OpenAI API key in a `.env` file:
    ```env
    OPENAI_API_KEY=your_openai_key_here
    ```
 4. Start the app:
-   ```streamlit run app.py
+   ```bash
+   streamlit run app.py
    ```
 5. Upload a PDF and ask your questions!
 
